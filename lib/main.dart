@@ -1,5 +1,4 @@
 import 'package:admin_panal/view/home_screen.dart';
-import 'package:admin_panal/view/test_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_it/get_it.dart';
@@ -23,8 +22,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      // home: HomeScreen() ,
-      home: TestScreen() ,
+      home: const HomeScreen() ,
+      // home: TestScreen() ,
     );
   }
 }
